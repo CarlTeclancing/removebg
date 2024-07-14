@@ -65,6 +65,9 @@
             background-color: #0056cc;
             width: 300px;
         }
+        @media screen {
+            
+        }
     </style>
 </head>
 <body>
@@ -73,7 +76,7 @@
         <form action="upload.php" method="post" enctype="multipart/form-data">
             <label for="fileToUpload"><i class="bi bi-cloud-upload"></i>Select image to upload</label>
             <input type="file" name="fileToUpload" id="fileToUpload">
-            <input type="submit" value="Remove Background" name="submit">
+            <input type="submit" value="Remove Background & Download" name="submit">
         </form>
     </div>
 </body>
