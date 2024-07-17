@@ -71,6 +71,12 @@
     </style>
 </head>
 <body>
+    <header>
+        <img src="logo" alt="">
+        <nav>
+            <a href="#">Get Hosting Now</a>
+        </nav>
+    </header>
     <div class="container">
         <h1>Upload Image to Remove Background</h1>
         <form action="upload.php" method="post" enctype="multipart/form-data">
